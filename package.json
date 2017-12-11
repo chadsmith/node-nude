@@ -2,8 +2,12 @@
   "author": "Chad Smith <chad@nospam.me> (http://twitter.com/chadsmith)",
   "name": "nude",
   "description": "Nudity detection for Node.js",
-  "keywords": ["images", "filter", "detect"],
-  "version": "0.1",
+  "keywords": [
+    "images",
+    "filter",
+    "detect"
+  ],
+  "version": "1.0.0",
   "homepage": "https://github.com/chadsmith/node-nude",
   "repository": {
     "type": "git",
@@ -14,6 +18,7 @@
   },
   "main": "./nude.js",
   "dependencies": {
-  	"canvas": "*"
+    "canvas": "^1.6.7",
+    "request": "^2.83.0"
   }
 }

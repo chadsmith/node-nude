@@ -7,9 +7,18 @@ Node.js port of [nude.js](https://github.com/pa7/nude.js) by [Patrick Wied](http
 `npm install nude`
 
 ## Usage overview
+```
+  var nude = require('nude');
 
-	var nude = require('nude');
-	
-	nude.scan(__dirname + '/images/photo.jpg', function(res) {
-	  console.log('Contains nudity: ' + res);
-	});
+  nude.scan('<FILE_PATH>', function(res) {
+    console.log('Contains nudity: ' + res);
+  });
+
+  var isNude = await nude.scanAsync('<FILE_PATH>');
+
+  nude.scanUrl('<FILE_URL>', function(res) {
+    console.log('Contains nudity: ' + res);
+  });
+
+  var isNude = await nude.scanUrlAsync('<FILE_URL>');
+```
