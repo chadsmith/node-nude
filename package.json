@@ -3,7 +3,7 @@
   "name": "nude",
   "description": "Nudity detection for Node.js",
   "keywords": ["images", "filter", "detect"],
-  "version": "0.1",
+  "version": "0.2",
   "homepage": "https://github.com/chadsmith/node-nude",
   "repository": {
     "type": "git",
