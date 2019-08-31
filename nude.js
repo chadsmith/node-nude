@@ -41,7 +41,7 @@ module.exports = {
     fs.readFile(src, function(err, data) {
       if(err)
         throw err;
-      var canvas = new Canvas(1, 1),
+      var canvas = new Canvas.Canvas(1, 1),
         ctx = canvas.getContext('2d'),
         img = new Image,
         skinRegions = [],
